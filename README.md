@@ -85,64 +85,25 @@ A student enters their username once. The agent then:
 ## 4. Feature Set
 
 ### 🧠 Learn Tab
-The core learning engine for any topic.
+- **Input Flexibility:** Paste any topic text OR upload a PDF syllabus to instantly generate a learning session.
+- **3-Layer Explanations:** View content explained at 3 adaptive depths: ELI5 (Beginner), Conceptual (Intermediate), and Expert.
+- **Prerequisites & Concept Map:** Automatically maps out foundational knowledge required and visualizes how sub-topics connect.
+- **Save & Plan:** One-click options to save sessions to your Library or schedule them in your Study Planner.
 
-- **Input Flexibility:** Paste any topic text OR upload a PDF syllabus — text is auto-extracted and fed into the AI pipeline
-- **3-Layer Explanations:**
-  - 🟢 **ELI5** — Real-world analogies for complete beginners
-  - 🔵 **Conceptual** — Mechanism-focused explanation for university students
-  - 🟣 **Expert** — Technical depth with formal terminology and nuances
-- **Prerequisites Section** — Lists 3–5 foundational concepts with descriptions, formatted with visual bullet points
-- **Concept Map** — A visual, step-by-step topic mapping tree showing dependencies
-- **Add to Study Plan** — One-click button to push the topic into your personalized study planner with auto-filled deadlines
-- **Save to Library** — Permanently save the full session for future reference
-
-### 📝 Smart Quiz (Learn Tab)
-- Generates N MCQs (you pick 3–20 questions)
-- **2-Phase State Machine:** Phase 1 shows questions + Submit; Phase 2 shows results + Download button — no UI clutter
-- **Blank by default** — no option is pre-selected
-- Shows full question text, all options with A/B/C/D labels, correct/incorrect marking
-- Explanations shown for every wrong answer
-- **Time tracking** — measures exact time taken to complete the quiz
-- **Auto difficulty calibration:** Score ≥ 85% → bumps difficulty; Score < 50% → softens
-- **⬇️ Download Quiz Report PDF** — Detailed report with all questions, answers, explanations, score, and per-quiz analytics
+### 📝 Smart Quiz
+- **Dynamic Generation:** Generates multiple-choice questions based on the exact learning material.
+- **Auto-Calibrating Difficulty:** Your score automatically adjusts the difficulty of future quizzes and explanations.
+- **Detailed PDF Reports:** Download a comprehensive PDF report containing all questions, correct answers, explanations, and your specific time/accuracy analytics.
 
 ### 🗂️ Study Planner Tab
-A full 2-part study management system.
+- **Progress Tracking:** Check off learned topics across modules and set visual deadlines (Overdue, Due Today, etc.).
+- **Targeted Quizzes:** Select specific topics across multiple modules and generate a custom quiz just for those areas.
+- **Revision Notes Export:** Generate AI summary notes for your selected modules and download them as a formatted PDF.
 
-**Part 1: 📈 Progress Tracking**
-- Per-module topic checkboxes — mark topics as "learned"
-- Set deadlines per module with visual urgency indicators (🚨 Overdue / ⚠️ Due Today / 🟡 Soon / 🟢 Fine)
-- **Save Progress** button — persists all state without collapsing the UI
-- **Analytics Dashboard:**
-  - Module completion percentage with emoji status
-  - Topics completed today
-  - Progress-over-time line chart
-  - Growth indicator (e.g., "+3 topics since last save")
-
-**Part 2: 📝 Quiz & Revision Notes**
-- Cross-module topic selection panel — pick specific topics from any module combination
-- 🎯 **Start Quiz** — generates questions for exactly the selected topics
-- 📄 **Generate Revision Notes** — AI-generated summary notes for selected topics
-- ⬇️ **Download Notes as PDF** — formatted revision PDF
-
-### 📚 My Library Tab
-- Browse all saved topic sessions
-- Re-read any saved explanation (ELI5 / Conceptual / Expert layers)
-- Delete entries
-- **⬇️ Download Learning PDF** — full structured explanation PDF per saved topic
-
-### 📊 Analytics Tab
-- Total quiz sessions, average score, active learning days
-- 7-day score trend chart
-- Score-by-topic bar chart
-- Weak topics list (lifetime score < 60%)
-- Best and worst performing topics
-- Study streak counter and last active date
-
-### 🔔 Spaced Repetition Sidebar
-- Topics not revisited in 3+ days with last score < 80% appear as review reminders
-- Revision reminder banner in the sidebar
+### 📚 My Library & 📊 Analytics
+- **Personal Library:** Browse, read, or download PDFs of any previously saved learning session.
+- **Data-Driven Insights:** Track your daily study streak, overall accuracy, time spent, and identify your weakest topics over the last 7 days.
+- **Spaced Repetition:** The dashboard automatically flags topics you haven't reviewed recently if you scored poorly on them.
 
 ---
 

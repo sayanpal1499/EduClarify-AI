@@ -9,8 +9,7 @@
 [![Supabase](https://img.shields.io/badge/Database-Supabase-3ECF8E?style=for-the-badge&logo=supabase)](https://supabase.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-> **ESD Spring 2025–26 · SDG 4: Quality Education**
-> Team: **CodeVeda**
+> **SDG 4: Quality Education**
 
 [🚀 Live Demo](#11-deployment) · [📖 Features](#4-feature-set) · [🛠️ Setup](#9-setup-guide) · [📐 Architecture](#5-architecture)
 
@@ -486,7 +485,7 @@ In 2–3 minutes you will have a live public URL like `https://educlarify-ai.str
 
 <div align="center">
 
-Built with ❤️ by **Team CodeVeda** · ESD Spring 2025–26
+Built with ❤️ for AI-Powered Learning
 
 *EduClarify AI — Learn Smarter, Not Harder*
 

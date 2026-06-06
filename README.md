@@ -9,7 +9,6 @@
 [![Supabase](https://img.shields.io/badge/Database-Supabase-3ECF8E?style=for-the-badge&logo=supabase)](https://supabase.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-> **SDG 4: Quality Education**
 
 [🚀 Live Demo](#11-deployment) · [📖 Features](#4-feature-set) · [🛠️ Setup](#9-setup-guide) · [📐 Architecture](#5-architecture)
 
